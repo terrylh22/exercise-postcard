@@ -31,3 +31,17 @@ body {
 .postcard-body {
 	display: flex;
 }
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+.body-left,
+.body-right {
+	padding: 5px;
+}
+
+input {
+	border: none;
+	border-bottom: grey;
+}

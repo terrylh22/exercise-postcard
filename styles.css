@@ -1,10 +1,6 @@
 body {
 	background: black;
-}
-
-* {
-	border: 1px dashed red;
-	min-height: 10px;
+	font-family: "Montserrat";
 }
 
 .postcard {
@@ -12,10 +8,12 @@ body {
 	width: 400px;
 	height: 300px;
 	margin: auto;
+	padding: 10px;
 }
 
 .postcard-header {
 	display: flex;
+	padding-bottom: 5px;
 }
 
 .postcard-header img {
@@ -39,9 +37,30 @@ body {
 .body-left,
 .body-right {
 	padding: 5px;
+	width: 50%;
+}
+
+.body-left {
+	font-size: 15px;
 }
 
 input {
 	border: none;
-	border-bottom: grey;
+	border-bottom: solid grey;
+	font-family: "Montserrat";
+	padding-bottom: 10px;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: lightgrey;
+	padding: 5px;
+	font-family: "Montserrat";
+}
+
+input:focus {
+	outline: none;
 }
